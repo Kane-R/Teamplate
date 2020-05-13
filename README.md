@@ -23,6 +23,7 @@ Github repo url: https://github.com/Kane-R/Teamplate
 To install Teamplate, clone or download this entire repository. 
 
 ## Usage <a name="usage"></a>
+- See mp4 video of the application being run here: <a name="installation"></a>
 - To run this application and generate a teamPage.html file, type "node app.js" in your terminal
 - First ensure you are in the correct directory in your terminal. The correct directory will contain app.js (look for "// This is the app.js file you need to run to generate your teamPage.html..." at the top of app.js)
 
