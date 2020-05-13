@@ -23,7 +23,7 @@ Github repo url: https://github.com/Kane-R/Teamplate
 To install Teamplate, clone or download this entire repository. 
 
 ## Usage <a name="usage"></a>
-- See mp4 video of the application being run here: <a name="installation"></a>
+- See mp4 video of the application being run here: https://github.com/Kane-R/Teamplate/blob/master/test/Test_13-05-2020.mp4
 - To run this application and generate a teamPage.html file, type "node app.js" in your terminal
 - First ensure you are in the correct directory in your terminal. The correct directory will contain app.js (look for "// This is the app.js file you need to run to generate your teamPage.html..." at the top of app.js)
 
@@ -41,10 +41,9 @@ Please get in touch with me via email if you'd like to contribute.
 ## Tests <a name="tests"></a>
 Testing is conducted using the jest npm package (run test by entering "npm run test" in the terminal)
 
-See below screenshot of a recent test:
+See below screen capture gif of a recent test:
 
 ![](/test/test_13-05-2020.gif)
-
 
 ## Questions <a name="questions"></a> 
 Contact: Kane Robinson <img src="https://avatars2.githubusercontent.com/u/60692868?v=4" width="50" height="50"></img> 
