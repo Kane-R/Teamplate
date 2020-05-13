@@ -1,3 +1,5 @@
+// This is the app.js file you need to run to generate your teamPage.html file (to run, type "node app.js" in your terminal).
+
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
