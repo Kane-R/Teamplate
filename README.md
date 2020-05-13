@@ -42,7 +42,7 @@ Testing is conducted using the jest npm package (run test by entering "npm run t
 
 See below screenshot of a recent test:
 
-<img src="/Teamplate/test/test_13-05-2020.gif" width="50" height="50"></img>
+![](/test/test_13-05-2020.gif)
 
 
 ## Questions <a name="questions"></a> 
