@@ -13,6 +13,52 @@ const render = require("./lib/htmlRenderer");
 ​
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
+inquirer.prompt([
+    
+    // Confirm: Intro & simple opt-in or out. If out, then exit, dissconnect
+    {
+        type:"confirm",
+        name:"Create team profiles?",
+        message:"This is a team profile generator (Teamplate). It will create a HTML file containing the details of team member. Run this app for each member. Would you like to procede"
+    },
+
+    {
+        type:"list",
+        name:"role",
+        message:"What is the ROLE of the team member profile you'd like to create?",
+        choices:["Manager","Engineer","Intern"]
+    },
+
+    // Profile 1 Name
+    {
+        type:"input",
+        name:"profile1-name",
+        message:"Please enter profile1 name"
+    },
+
+    // Profile 1 Title
+    {
+        type:"input",
+        name:"profile1-title",
+        message:"Please enter profile1 title"
+    },
+
+    // Profile 1 Email      
+    {CGBTFGKJLLKJLKJLJ
+        type:"input",
+        name:"profile1-email",
+        message:"Please enter profile1 email"
+    },
+    
+    klkkF
+    {
+        type:"checkbox",
+        name:"kanesCheckbox",
+        message:"This is a checkbox",
+        choices:["checkbox 1","checkbox 2","checkbox  3","checkbox  4"]
+    }]
+
+
 ​
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
